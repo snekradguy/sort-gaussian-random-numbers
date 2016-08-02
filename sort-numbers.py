@@ -14,5 +14,7 @@ def scientificToStandardNotation(numbers, digits):
 numbers = input("Paste your string of numbers: ")
 digits = int(input("How many significant digits have those numbers: "))
 print("")
-for value in scientificToStandardNotation(splitNumbers(numbers), digits):
+list = scientificToStandardNotation(splitNumbers(numbers), digits)
+list.sort()
+for value in list:
     print(value)
