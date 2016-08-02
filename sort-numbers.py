@@ -1,4 +1,4 @@
-# Version 1.0
+# Version 1.1
 
 def splitNumbers(numbers):
     numbers = numbers.replace("   ", "\n").replace("  ", "\n")
